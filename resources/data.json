@@ -1,15 +1,15 @@
 {
-    "name": "KIỀU MINH HIẾU",
+    "name": "BUI THANH LONG",
     "contact": {
-        "address": "Hà Nội, Việt Nam",
-        "phone": "0963056220",
-        "email": "hieuca205@gmail.com",
-        "facebook": "facebook.com/hieki.chan",
-        "github": "github.com/hieki-chan"
+        "address": "Ha Noi, Viet Nam",
+        "phone": "(+84)988681702",
+        "email": "yunasawa200@gmail.com",
+        "facebook": "...",
+        "github": "github.com/yunasawa"
     },
     "education": {
-        "school": "Trường Đại Học Công Nghiệp Hà Nội (HaUI)",
-        "GPA": "3.x/4.0"
+        "school": "Ha Noi University of Science and Technology (HUST)",
+        "GPA": "2.x/4.0"
     },
     "skills": [
         "C# .Net Programming",
