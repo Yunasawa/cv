@@ -1,3 +1,0 @@
-# yunasawa.github.io
-
-# HEHE
