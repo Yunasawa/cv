@@ -1,0 +1,68 @@
+﻿.ExperienceGroup
+{
+    margin: 0 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ExperienceLine
+{
+    width: 1px; 
+    background: black;
+    margin: 0 10px;
+    top: 10px;
+    position: relative;
+}
+
+.ExperienceLine::before 
+{
+    content: '✦';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.ExperienceTitle
+{
+    font-size: 15px;
+    color: black;
+    /*text-decoration: none;*/
+
+    font-weight: 1000;
+    margin: 0px;
+}
+
+a.ExperienceTitle:hover 
+{
+    color: #7a63b8;
+}
+
+.ExperienceDate 
+{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    text-align: right;
+}
+
+.ExperiencePosition
+{
+    font-weight: bold;
+    margin: 0px;
+}
+
+.ExperienceDetail
+{
+    margin: 0 0 0 5px;
+    flex: 1;
+}
+
+.ExperienceList
+{
+    margin: 0px;
+    padding: 0 0 0 20px;
+}

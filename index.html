@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unity CV</title>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"> -->
+    <title>Yunasawa.CV</title>
+
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/left.css">
     <link rel="stylesheet" href="styles/right.css">
     <link rel="stylesheet" href="styles/font.css">
 
-    <style id="fonts1" type="text/css" >
+    <link rel="stylesheet" href="styles/GeneralStyle.css">
+    <link rel="stylesheet" href="styles/InformationField.css">
+    <link rel="stylesheet" href="styles/DescriptionField.css">
+    <link rel="stylesheet" href="styles/PositionField.css">
+    <link rel="stylesheet" href="styles/SessionLabel.css">
+    <link rel="stylesheet" href="styles/ExperienceGroup.css">
+    <link rel="stylesheet" href="styles/ProjectList.css">
+
+    <style id="fonts1" type="text/css">
 
         @font-face {
             font-family: Nunito-Regular;
@@ -20,15 +28,13 @@
         @font-face {
             font-family: Nunito-Bold;
             src: url("fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
-        }  
+        }
 
         @font-face {
             font-family: Nunito-Black;
             src: url("fonts/Nunito/static/Nunito-Black.ttf") format("truetype");
-        }              
-        
+        }
     </style>
-    
 </head>
 <body>
     <div id="pages"></div>
@@ -36,124 +42,156 @@
     <div class="page">
         <!-- Left Section -->
         <div id="left">
+
+            <!-- #region Information Properties -->
             <div class="profile-pic-container">
                 <img src="resources/Yunasawa Logo.png" alt="Profile Picture" class="profile-pic">
             </div>
 
-            <p id="name">Bui Thanh Long (Yunasawa)</p>
-            <div id="line"></div>
-            <div class="left-section">
-                <h2 class="left-h1">Contact</h2>
-                <a href="https://www.google.com/maps/search/Hanoi" target="_blank" class="link-1 contact">HA Noi, Viet Nam</a>
-                <p class="contact">(+84)988681702</p>
-                <p><a href="mailto:hieuca205@gmail.com" class="link-1 contact">yunasawa200@gmail.com</a></p>
-                <p><a href="https://facebook.com/hieki.chan" target="_blank" class="link-1 contact">...</a></p>
-                <p><a href="https://github.com/hieki-chan" target="_blank"  class="link-1 contact">github.com/yunasawa</a></p>
-            </div>
+            <!--<p class="NameField">Bui Thanh Long</p>-->
 
-            <div class="left-section">
-                <h2 class="left-h1">Education</h2>
-                <ul class="left-list">
-                    <li>Ha Noi University of Science and Technology (HUST)</li>
-                    <li>GPA: 2.x/4.0</li>
+            <div class="InformationField">
+                <img src="resources/Icons/Date.png" alt="Icon" class="InformationIcon">
+                <p class="InformationText">05/11/2004</p>
+            </div>
+            <div class="InformationField">
+                <img src="resources/Icons/Mail.png" alt="Icon" class="InformationIcon">
+                <a href="mailto:yunasawa200@gmail.com" class="InformationText">yunasawa200@gmail.com</a>
+            </div>
+            <div class="InformationField">
+                <img src="resources/Icons/Phone.png" alt="Icon" class="InformationIcon">
+                <a href="tel:+84988681702" class="InformationText">(+84)988681702</a>
+            </div>
+            <div class="InformationField">
+                <img src="resources/Icons/Github.png" alt="Icon" class="InformationIcon">
+                <a href="https://github.com/Yunasawa" class="InformationText" target="_blank">Yunasawa</a>
+            </div>
+            <!-- #endregion -->
+
+            <br />
+
+            <!-- #region Short Descriptions -->
+            <div class="DescriptionField">
+                <h2 class="DescriptionTitle">Skills</h2>
+                <ul class="DescriptionList">
+                    <li class="Flex">
+                        <span class="RatingName">Unity Engine</span>
+                        <span class="RatingStarGlow">✦✦✦✦✦✦</span><span class="RatingStarFade">✦✦</span>
+                    </li>
+                    <li class="Flex">
+                        <span class="RatingName">Design Patterns</span>
+                        <span class="RatingStarGlow">✦✦✦✦✦✦</span><span class="RatingStarFade">✦✦</span>
+                    </li>
+                    <li class="Flex">
+                        <span class="RatingName">Architectures</span>
+                        <span class="RatingStarGlow">✦✦✦✦✦</span><span class="RatingStarFade">✦✦✦</span>
+                    </li>
+                    <li class="Flex">
+                        <span class="RatingName">OOP, SOLID</span>
+                        <span class="RatingStarGlow">✦✦✦✦✦✦✦</span><span class="RatingStarFade">✦</span>
+                    </li>
+                    <li class="Flex Space">
+                        <span class="RatingName">English</span>
+                        <span class="RatingStarGlow">✦✦✦✦✦✦</span><span class="RatingStarFade">✦✦</span>
+                    </li>
+                    <li class="Flex">
+                        <span class="RatingName">Japanese</span>
+                        <span class="RatingStarGlow">✦✦✦✦</span><span class="RatingStarFade">✦✦✦✦</span>
+                    </li>
                 </ul>
             </div>
 
-            <div class="left-section">
-                <h2 class="left-h1">Skills</h2>
-                <ul class="left-list">
-                    <li>C# .Net Programming</li>
-                    <li>OOP, SOLID Principles</li>
-                    <li>Design Patterns</li>
-                    <li>Unity 3D</li>
-                    <li>Mobile Game Publishing</li>
-                    <li>Version Control: GitHub</li>
+            <div class="DescriptionField">
+                <h2 class="DescriptionTitle">Specialties</h2>
+                <ul class="DescriptionList">
+                    <li>Creating useful uitilities, extensions to facilitate developing progress.</li>
+                    <li>Creating and researching on games algorithms and mechanisms.</li>
                 </ul>
             </div>
 
-            <div class="left-section">
-                <h2 class="left-h1">Languages</h2>
-                <ul class="left-list">
-                    <li>English: Elementary</li>
+            <div class="DescriptionField">
+                <h2 class="DescriptionTitle">Hobbies</h2>
+                <ul class="DescriptionList">
+                    <li>Playing video games (esspecially RPG and Story-Rich)</li>
+                    <li>Chilling with musics (US-UK or JPOP)</li>
                 </ul>
             </div>
+            <!-- #endregion -->
+
         </div>
-        
+
         <!-- Right Section -->
         <div id="right">
-            <div id="header">
-                <div id="header-titles">
-                    <h1 class="h-title">Freshder Game Developer</h1>
-                    <h1 class="h-title">Unity 3D</h1>
-                </div>
-                <div id="line-thin"></div>
+            <div class="PositionField">
+                <p class="TextField NameText">BUI THANH LONG</p>
+                <p class="TextField PositionText">Mid-Level Unity Engine Developer</p>
             </div>
 
             <div>
-                <div class="right-section">
-                    <h2 class="right-h1">Summary</h2>
-                    <div class="line-h"></div>
-                    
-                    <p>Fresher Game Developer passionate about RPG Action games, eager to work in a professional environment where I can grow my skills and contribute to the gaming industry.</p>
+                <div class="SessionLabel">
+                    <img src="resources/Icons/Target2.png" alt="Icon" class="SessionIcon">
+                    <p class="SessionText">CAREER TARGET</p>
                 </div>
+                <p class="ContentText">As a passionate Unity Engine programmer with experience in game and application development, I aspire to fully utilize my skills and knowledge to create high-quality products that provide the best possible user experience.</p>
 
-                <div class="right-section">
-                    <h2 class="right-h1">Unity Technical Skills</h2>
-                    <div class="line-h"></div>
-                    <ul>
-                        <li><span class="highlight-text-1">Tweens:</span> DoTween, LeanTween</li>
-                        <li><span class="highlight-text-1">Asynchronous:</span> Coroutines, async/await, Task/Unitask</li>
-                        <li><span class="highlight-text-1">Resources Management:</span> Resources, Addressables, AssetBundles</li>
-                        <li><span class="highlight-text-1">Unity Editor:</span> Write average custom Attribute/Inspector/Editor Window</li>
-                        <li><span class="highlight-text-1">Unity Ads:</span> Implement basic mobile Ads</li>
-                        <li><span class="highlight-text-1">Unit Testing:</span> Write basic unit tests</li>
-                    </ul>
+                <div class="SessionLabel">
+                    <img src="resources/Icons/Education2.png" alt="Icon" class="SessionIcon">
+                    <p class="SessionText">EDUCATION</p>
                 </div>
-        
-                <div class="right-section">
-                    <h2 class="right-h1">Projects</h2>
-                    <div class="line-h"></div>
+                <h3 class="ContentText">HA NOI UNIVERSITY OF SCIENCE AND TECHNOLOGY (HUST)</h3>
+                <p class="ContentText">Major: Information Technology (Vietnamese - Japanese)</p>
+                <p class="ContentText">2022 - 2026</p>
 
-                    <div id="projects">
-                        <div class="project-item">
-                            <div class="project-duration">
-                                <p>Aug Sep, 2024</p>
-                            </div>
-                            <div class="project-details"> 
-                                <h3 class="right-h2">Supermarket Simulator Prototype</h3>
-                                <ul>
-                                    <li>A prototype for a supermarket game including core features like movement, customer management, products, store management, and save-load systems. Optimized for mobile.</li>
-                                    <li>Source code: <a href="https://github.com/hieki-chan/Supermarket-Simulator-Prototype" target="_blank" class="link-2">Supermarket Simulator Prototype</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="project-item">
-                            <div class="project-duration">
-                                <p>2025</p>
-                            </div>
-                            <div class="project-details"> 
-                                <h3 class="right-h2">My Fast Food</h3>
-                                <ul>
-                                    <li>A game developed based on the Supermarket Simulator Prototype. Available on Google Play with 1M+ downloads.</li>
-                                </ul>
-                            </div>
-                        </div>
-            
-                        <div class="project-item">
-                            <div class="project-duration">
-                                <p>2026</p>
-                            </div>
-                            <div class="project-details"> 
-                                <h3 class="right-h2">FiniState</h3>
-                                <ul>
-                                    <li>An Editor Tool for visualizing Finite State Machines, available on the Unity Asset Store with 100+ downloads and a 5-star rating.</li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="SessionLabel">
+                    <img src="resources/Icons/Experience.png" alt="Icon" class="SessionIcon">
+                    <p class="SessionText">WORKING EXPERIENCE</p>
+                </div>
+                <div class="ExperienceGroup">
+                    <div class="ExperienceLine" style="height: 120px;"></div>
+                    <div class="ExperienceDetail">
+                        <p class="ExperienceTitle">
+                            <strong>SOUTHERN STAR STUDIO</strong>
+                        </p>
+                        <span class="ExperienceDate">07/2023 - 05/2024</span>
+                        <p class="ExperiencePosition">Fresher Unity Developer</p>
+                        <ul class="ExperienceList">
+                            <li>Take on the role of Frontend Developer for most projects within the team, utilizing Unity Engine.</li>
+                            <li>Handle  aspects such as game mechanics, game logic, UI logic, and animations.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ExperienceGroup">
+                    <div class="ExperienceLine" style="height: 130px;"></div>
+                    <div class="ExperienceDetail">
+                        <a class="ExperienceTitle" href="https://oneleven.studio/" target="_blank">
+                            <strong>ONELEVEN STUDIO</strong>
+                        </a>
+                        <span class="ExperienceDate">10/2024 - Now</span>
+                        <p class="ExperiencePosition">Mid-Level Unity Programmer</p>
+                        <ul class="ExperienceList">
+                            <li>Take on the role of Frontend Developer for mostly Hybrid, Puzzle and other genre projects.</li>
+                            <li>Developing utility tools to support the process of game and application development.</li>
+                        </ul>
                     </div>
                 </div>
 
+                <div class="SessionLabel">
+                    <img src="resources/Icons/Project.png" alt="Icon" class="SessionIcon">
+                    <p class="SessionText">PRODUCTS & PROJECTS</p>
+                </div>
+                <p class="ProjectText">Some typical projects:.</p>
+                <ul class="ProjectList">
+                    <li>
+                        <a target="_blank" class="ProjectBold ProjectTitle" href="https://github.com/Yunasawa-Studio/YNL-General-Toolbox">YNL - General Toolbox</a>: A versatile toolbox to enhance Unity projects and boost productivity.
+                    </li>
+                    <li>
+                        <a target="_blank" class="ProjectBold ProjectTitle" href="https://github.com/Yunasawa-Studio/YNL-Simple-AI-System">YNL - Simple AI System</a>: A toolkit used to implement simple AI behaviors and interactions effortlessly.
+                    </li>
+                    <li>
+                        <a target="_blank" class="ProjectBold ProjectTitle" href="https://github.com/Yunasawa/YNL-Utilities">YNL - Utilities</a>: A toolkit offers a range of utilities and extensions to boost your workflow.
+                    </li>
+                </ul>
+                <p class="ProjectText ProjectLight">See more projects <a target="_blank" class="ProjectTitle" href="https://github.com/Yunasawa/YNA-Portfolio-Unity">here</a>.</p>
             </div>
         </div>
     </div>

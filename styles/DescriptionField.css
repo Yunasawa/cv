@@ -1,0 +1,56 @@
+.DescriptionField 
+{
+    margin-left: 20px;
+}
+
+.DescriptionTitle 
+{
+    font-size: 17.5px;
+    font-family: Nunito-Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #d8d8d8;
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.DescriptionList 
+{
+    margin: 0px;
+    margin-right: 15px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+.DescriptionList li
+{
+    margin-left: 15px;
+}
+
+.DescriptionList li.Flex
+{
+    display: flex;
+}
+
+.DescriptionList li.Space
+{
+    margin-top: 15px;
+}
+
+.RatingName
+{
+    flex: 1;
+}
+
+.RatingStarGlow
+{
+    color: #b9a6ed;
+}
+
+.RatingStarFade 
+{
+    flex-shrink: 0;
+    margin-right: 10px;
+    color: #666666;
+}

@@ -3,23 +3,23 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url("../resources/blur pane 2.jpg"); 
-    object-fit: cover;
+    background-image: url('../resources/blur pane 2a.jpg');
+    object-fit: contain;
     border-radius: 10px 0 0 10px;
     color: white;
 }
 
-.profile-pic-container {
+.profile-pic-container 
+{
     display: flex;
     justify-content: center;
 }
 
 .profile-pic {
-    width: 190px;
-    height: 220px;
-    /* border-radius: 3%; */
+    width: 150px;
+    height: 150px;
     border: 0px solid #b4b4b4;
-    object-fit: cover;
+    object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -27,7 +27,7 @@
 }
 
 #name {
-    font-size: 18px;    
+    font-size: 20px;
     font-family: Nunito-Bold;
     font-weight: 666;
     text-align: center;
@@ -42,7 +42,6 @@
     width: 150px;
     background-color: #b4b4b4;
     border-radius: 10px;
-
     margin: 10px auto 20px auto;
 }
 
@@ -69,4 +68,22 @@
 
 .left-list {
     color: #b4b4b4;
+}
+
+.icon-text-container 
+{
+    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+}
+
+.icon {
+    width: 25px; /* Set the width of the icon */
+    height: auto; /* Maintain the aspect ratio of the icon */
+    margin-right: 10px; /* Space between the icon and the text */
+}
+
+.text {
+    font-weight: bold;
+    font-size: 18px; /* Set the font size of the text */
 }

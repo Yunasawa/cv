@@ -1,7 +1,7 @@
 #right {
     width: 66%;
     height: 100%;
-    color: #ffffff;
+    background-color: white;
     margin: 0;
 }
 
@@ -14,8 +14,9 @@
 }
 
 #header {
-    background-image: url("../resources/modern-dot.png");
-    background-size: auto;
+    /*background-image: url("../resources/modern-dot.png");
+    background-size: auto;*/
+    background-color: #d4e6ff;
     background-position: 70% 70%;
     margin-top: 0;
     margin-left: 0;
