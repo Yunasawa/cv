@@ -5,7 +5,7 @@
     margin: 0;
     background-image: url('../resources/blur pane 2a.jpg');
     object-fit: contain;
-    border-radius: 10px 0 0 10px;
+/*    border-radius: 10px 0 0 10px;*/
     color: white;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border: 0px solid #b4b4b4;
     object-fit: contain;
     margin-top: 20px;

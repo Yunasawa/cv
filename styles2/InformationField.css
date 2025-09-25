@@ -1,0 +1,25 @@
+.InformationField
+{
+    height: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.InformationIcon
+{
+    width: 20px; 
+    height: auto;
+    margin-right: 7.5px;
+}
+
+.InformationText 
+{
+    color: white;
+    font-size: 15px;
+}
+
+a.InformationText:hover 
+{
+    color: #b9a6ed;
+}

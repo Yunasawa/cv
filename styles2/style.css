@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 14px;
     font-family: Nunito-Regular;
-    background-image: url('../resources/background2.jpg');
+/*    background-image: url('../resources/background2.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,12 +12,12 @@ body {
 .page {
     width: 210mm;
     height: 297mm;
-    margin: 20px auto;
+/*    margin: 20px auto;*/
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+/*    box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
     border-radius: 12px;
     background-color: #ffffff;
     overflow: inherit;
@@ -60,18 +60,20 @@ p {
         transition: color 0.3s ease, background-color 0.3s ease;
     }
 
-.ListTitle {
+.ListTitle
+{
     margin-top: 15px;
 }
 
-.ListTitleTop {
+.ListTitleTop
+{
     margin-top: 0px;
 }
 
 .Hello {
     font-size: 15px;
     color: white;
-    margin: 0px;
+    margin: 0;
 }
 
     .Hello:hover {
@@ -82,5 +84,4 @@ p {
 .HtmlCV {
     font-weight: bold;
     color: #0c0c26;
-    margin: 0 10px 0 0;
 }
